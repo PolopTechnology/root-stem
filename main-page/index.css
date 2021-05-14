@@ -1,0 +1,59 @@
+body {
+    background-image: linear-gradient(cyan 80%, rgb(83, 166, 243) 20%);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1, h2 {
+    color: darkgreen;
+    background-color: aquamarine;
+}
+h3 {
+    position: absolute;
+    top: 500px;
+    left: 250px;
+}
+#logo {
+    float: left;
+}
+ #apps {
+    height:60px;
+    width: 100px;
+    position: absolute;
+    top: 220px;
+    left: 400px;
+    border-radius: 12px;
+    font-size: medium;
+}
+#games {
+    height:60px;
+    width: 100px;
+    border-radius: 12px;
+    position: absolute;
+    top: 220px;
+    left: 800px;
+    font-size: medium;
+}
+#help {
+    height:50px;
+    width: 80px;
+    border-radius: 12px;
+    position: absolute;
+    top: 500px;
+    left: 1100px;
+    font-size: medium;
+}
+#github {
+    position: absolute;
+    top: 500px;
+    left: 100px;
+    float: left;
+}
+#instagram {
+    position: absolute;
+    top: 500px;
+    left: 170px;
+    float: left;
+    width: 60px;
+}
