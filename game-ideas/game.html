@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            h1 {
+                background-color: darkturquoise;
+            }
+            #logo {
+                float: left;
+            }
+            body {
+                background-image: linear-gradient(cyan 80%, yellow 20%);
+                height: 100%;
+                margin: 0;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+            }
+            #gen {
+                position: absolute;
+                top: 200px;
+                left: 550px;
+                font-size: xx-large;
+            }
+            #generate {
+                position: absolute;
+                top: 300px;
+                left: 550px;
+                height:60px;
+                width: 100px;
+                border-radius: 12px;
+                font-size: medium;
+            }
+            #next {
+                width: 100px;
+                height: 50px;
+                background-color: yellow;
+                position: absolute;
+                top: 500px;
+                left: 550px;
+            }
+        </style>
+    </head>
+    <body>
+        <a href="C:\Users\Sergio\Dropbox\My PC (DESKTOP-4SNVB7M)\Desktop\root-stem\main-page\index.html">
+            <img id="logo" src="C:\Users\Sergio\Dropbox\My PC (DESKTOP-4SNVB7M)\Desktop\Logo.png" alt="logo" width="200" height="150">
+        </a>
+        <h1><center>GET INSPIRED FOR SOME GAMES!</center></h1>
+        <center><p id="gen"></p></center>
+        <input id="generate" type="button" onclick="generate()" value="Generate!">
+        <input id="next" type="button" onclick="next()" value=">>>">
+        <script src = "game.js">
+        </script>
+    </body>
+</html>
