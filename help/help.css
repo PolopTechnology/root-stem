@@ -1,0 +1,37 @@
+body {
+  background-image: linear-gradient(cyan 80%, rgb(83, 166, 243) 20%);
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#yesButton {
+  position: absolute;
+  top: 150px;
+  left: 600px;
+  border-radius: 12px;
+  height:50px;
+  width: 80px;
+}
+#noButton {
+  position: absolute;
+  top: 250px;
+  left: 600px;
+  border-radius: 12px;
+  height:50px;
+  width: 80px;
+}
+#notSureButton {
+  position: absolute;
+  top: 350px;
+  left: 600px;
+  border-radius: 12px;
+  height:50px;
+  width: 80px;
+}
+#prompt {
+  background-color: yellow;
+}
+#logo {
+  float: left;
+}
