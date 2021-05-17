@@ -26,9 +26,15 @@ body {
     border-radius: 12px;
     font-size: medium;
 }
-#appnews {
+#appnews1 {
     position: absolute;
     top: 250px;
+    left: 0px;
+    background-color:cornflowerblue;
+}
+#appnews2 {
+    position: absolute;
+    top: 270px;
     left: 0px;
     background-color:cornflowerblue;
 }
