@@ -22,3 +22,13 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+
+var tips = [
+  "Don't be afraid to come up \nor follow ridiculous ideas!",
+  "Maybe combine app and game ideas! You could \ncome up with something useful and fun at the same time!",
+  "You could use game ideas again and again, \nand then combine all of them for a super game!",
+  "Don't forget to check the help button \nif you want any help!"
+];
+
+var r = Math.floor(Math.random() * 4);
+document.getElementById("tip").innerText = "Tip: " + tips[r];
