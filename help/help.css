@@ -35,3 +35,6 @@ body {
 #logo {
   float: left;
 }
+#notice {
+  background-color: yellow;
+}
